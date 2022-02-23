@@ -106,7 +106,7 @@ export class App extends React.Component {
 
         {this.state.largeImageURL && (
           <Modal onClose={this.handleCloseModal}>
-            <img src={this.state.largeImageURL} alt="image" />
+            <img src={this.state.largeImageURL} alt="malunok" />
           </Modal>
         )}
       </div>
