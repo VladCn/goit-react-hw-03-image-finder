@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 
 import { ImageGalleryItem } from '../ImageGalleryItem';
 
-export function ImageGallery({ data }) {
+export function ImageGallery({ data, onClick }) {
   return (
-    <ul className="gallery">
+    <ul className="gallery" onClick={onClick}>
       {data.map(({ id, webformatURL, largeImageURL }) => (
         <ImageGalleryItem
           key={id}
