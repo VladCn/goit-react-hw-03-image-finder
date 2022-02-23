@@ -1,6 +1,5 @@
 import React from 'react';
 import axios from 'axios';
-import * as basicLightbox from 'basiclightbox';
 import { Audio } from 'react-loader-spinner';
 import { Searchbar } from './Searchbar';
 import { ImageGallery } from './ImageGallery';
